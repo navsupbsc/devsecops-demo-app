@@ -13,7 +13,7 @@ public class AppInfoController {
 
 	@GetMapping
 	public String getInfo() throws UnknownHostException {
-		return this.getComputerName();
+		return this.getComputerName().toUpperCase();
 	}
 
 	private String getComputerName() throws UnknownHostException {
