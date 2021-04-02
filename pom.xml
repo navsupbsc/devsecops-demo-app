@@ -16,8 +16,8 @@
 	<description>A Demo Project for LinkedIn Learning</description>
 	<properties>
 		<java.version>11</java.version>
-		<sonar.projectKey>KevinBowersox-LinkedIn-Learning-Courses_gitops-foundations-prep</sonar.projectKey>
-		<sonar.organization>kevinbowersox-linkedin-learning-courses</sonar.organization>
+  		<sonar.projectKey>KevinBowersox-LinkedIn-Learning-Courses_gitops-foundations-prep</sonar.projectKey>
+  		<sonar.organization>kevinbowersox-linkedin-learning-courses</sonar.organization>
 		<sonar.host.url>https://sonarcloud.io</sonar.host.url>
 	</properties>
 	<dependencies>
