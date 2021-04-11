@@ -1,10 +1,10 @@
-package com.linkedin.gitops;
+package com.demo.devsecops;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class GitopsDemoApplicationTests {
+class DemoApplicationTests {
 
 	@Test
 	void contextLoads() {

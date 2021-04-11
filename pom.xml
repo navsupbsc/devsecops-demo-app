@@ -9,15 +9,15 @@
 		<version>2.4.4</version>
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.linkedin</groupId>
-	<artifactId>gitops-foundations-prep</artifactId>
+	<groupId>com.demo.devsecops</groupId>
+	<artifactId>devsecops-demo</artifactId>
 	<version>1.0.0.RELEASE</version>
 	<name>gitops-demo</name>
-	<description>A Demo Project for LinkedIn Learning</description>
+	<description>A Demo Project</description>
 	<properties>
 		<java.version>11</java.version>
-		<sonar.projectKey>KevinBowersox-LinkedIn-Learning-Courses_gitops-foundations-prep</sonar.projectKey>
-		<sonar.organization>kevinbowersox-linkedin-learning-courses</sonar.organization>
+		<sonar.projectKey>kmb385demo_devsecops-demo-app</sonar.projectKey>
+		<sonar.organization>kmb385demo</sonar.organization>
 		<sonar.host.url>https://sonarcloud.io</sonar.host.url>
 	</properties>
 	<dependencies>

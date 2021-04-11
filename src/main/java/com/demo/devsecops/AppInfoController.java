@@ -1,4 +1,4 @@
-package com.linkedin.gitops;
+package com.demo.devsecops;
 
 import java.net.InetAddress;
 import java.net.UnknownHostException;
