@@ -9,16 +9,20 @@
 
 <title>DevSecOps Demo!</title>
 <script>
-	window.onload=function(){
-		
-		setInterval(function(){
+	function writeHostName(){
 			fetch('/info')
 			.then(response => response.text())
 			.then(data => document.getElementById("hostname")
 			.innerHTML = data);
-		},5000);
-		//Security Issue XSS
+	}
 
+	window.onload=function(){
+		
+		setInterval(function(){
+			writeHostName();
+		},2000);
+
+		writeHostName();
 	}
 </script>
 </head>
@@ -26,8 +30,8 @@
 <body>
 	<div class="px-4 py-5 my-5 text-center">
 		<img class="d-block mx-auto mb-4"
-			src="images/logo.jpg" alt="" width="268" height="65">
-		<h1 class="display-5 fw-bold">Bloomsburg University</h1>
+			src="images/logo.jpg" alt="">
+		<h1 class="display-5 fw-bold">NAVSUP BSC on Kubernetes</h1>
 		<div class="mx-auto m-4">
 				<h3>System Hostname</h3>
 				<span id="hostname">Unknown</span>
